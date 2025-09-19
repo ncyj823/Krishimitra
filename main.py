@@ -5,6 +5,7 @@ from transformers import pipeline
 from googletrans import Translator
 from gtts import gTTS
 import os
+import torch
 from fastapi.responses import FileResponse
 import soundfile as sf
 import wave
