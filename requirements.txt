@@ -1,12 +1,15 @@
-# Build tools (must be first!)
+--extra-index-url https://download.pytorch.org/whl/cpu
+
+# Build tools
 setuptools>=68.0.0
 wheel
 pip>=23.0
 
 # Web framework
+flask
+gunicorn
 fastapi==0.115.0
 uvicorn[standard]==0.30.1
-gunicorn==22.0.0
 
 # HTTP requests
 requests
@@ -15,11 +18,13 @@ requests
 python-dotenv
 
 # Text-to-Speech
-gTTS==2.5.1
+gTTS
 pyttsx3
 
+# NLP models
 transformers==4.44.2
-torch==2.5.1
+torch==2.5.1+cpu
+
 
 
 
