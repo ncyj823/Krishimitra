@@ -17,5 +17,10 @@ python-dotenv
 gTTS
 pyttsx3
 
+fastapi
+uvicorn[standard]
+gunicorn
+
+
 
 
